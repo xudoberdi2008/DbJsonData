@@ -22,6 +22,8 @@ function App() {
 
     <div className="App">
       <h1>Hello</h1>
+      <p>shakalad</p>
+      <b>hgfhsgdfhdsgfh</b>
       {/* {
         posts.map(post =>(
           <div key={post.id}>
