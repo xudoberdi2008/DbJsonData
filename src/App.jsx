@@ -40,10 +40,10 @@ function App() {
             <div className="col">
               <h1 className="card-title Myh1 mt-1"><b>Fresh Healthy</b><br /> Delicious Foods</h1>
               <p>We Made Fresh and Healthy Foods...</p>
-              <img style={{ width: '60%' }} src={Myimg2} alt="" />
+              <img style={{ width: '60%' }} src={Myimg2}/>
             </div>
             <div className="col">
-            <img style={{ width: '90%' }} src={Myimg3} alt="" />
+            <img style={{ width: '90%' }} src={Myimg3}/>
             </div>
           </div>
         </div>
