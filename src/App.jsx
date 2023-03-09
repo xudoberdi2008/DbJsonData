@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Myimg from './1.png'
 import Myimg2 from './2.png'
 import Myimg3 from './3.jpg'
+// import Myimg4 from './4.png'
 
 function App() {
 
@@ -34,13 +35,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="Mycontainer">
-        <div className="container ">
+      <div className="Mycontainer"><br />
+        <div className="container">
           <div className="row">
             <div className="col">
               <h1 className="card-title Myh1 mt-1"><b>Fresh Healthy</b><br /> Delicious Foods</h1>
               <p>We Made Fresh and Healthy Foods...</p>
-              <img style={{ width: '60%' }} src={Myimg2}/>
+              <img style={{ width: '80%' }} src={Myimg2}/>
             </div>
             <div className="col">
             <img style={{ width: '90%' }} src={Myimg3}/>
