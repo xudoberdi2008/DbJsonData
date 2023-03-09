@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Myimg from './1.png'
 import Myimg2 from './2.png'
 import Myimg3 from './3.jpg'
-// import Myimg4 from './4.png'
+import Myimg4 from './4.png'
 
 function App() {
 
@@ -48,7 +48,28 @@ function App() {
             </div>
           </div>
         </div>
+      </div><br />
+      <div className=""><br />
+        <div className="container">
+          <div className="row row-cols-1 row-cols-md-2 g-2 ">
+            <div className="col">
+              <h1 className="card-title Myh1 mt-1"><b>Type of Ingridiants in </b><br />Nutrition Diet</h1>
+              <p><b>Good food ends with good talk...</b></p>
+              <p className='text-secondary'>It is a long established fact that a reader will be distracted by the <br /> readable content of a page when looking at its layout the <br /> generated Lorem Ipsum is therefore always free from repetition.</p>
+              <p className='text-secondary'>It was popularised in the 1960s with the release of Letraset sheets <br /> containing Lorem Ipsum passages...</p>
+
+            </div>
+            <div className="col">
+            <img style={{ width: '100%' }} src={Myimg4}/>
+            </div>
+          </div>
+        </div>
       </div>
+      <div className="Mycontainer"><br />
+        <div className="container">
+          
+        </div>
+      </div><br />
 
     </div>
   );
